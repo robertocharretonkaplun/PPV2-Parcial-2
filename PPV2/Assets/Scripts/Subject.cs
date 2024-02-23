@@ -14,5 +14,9 @@ public class Leccion
 [CreateAssetMenu(fileName = "New Subject", menuName = "ScriptableObjects/New_Lesson", order = 1)]
 public class Subject : ScriptableObject
 {
+  [Header("GameObject Configuration")]
+  public int Lection = 0;
+  
+  [Header("Lession Quest Configuration")]
   public List<Leccion> leccionList;
 }

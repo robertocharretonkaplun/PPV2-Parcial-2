@@ -15,7 +15,7 @@ public class Leccion
 public class Subject : ScriptableObject
 {
   [Header("GameObject Configuration")]
-  public int Lection = 0;
+  public int Lesson = 0;
   
   [Header("Lession Quest Configuration")]
   public List<Leccion> leccionList;

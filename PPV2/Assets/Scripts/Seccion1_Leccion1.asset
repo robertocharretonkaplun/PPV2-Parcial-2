@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be8af2b520b6523499376af89437dbed, type: 3}
   m_Name: Seccion1_Leccion1
   m_EditorClassIdentifier: 
+  Lesson: 1
   leccionList:
   - ID: 0
     lessons: "\xBFQue es una variable?"

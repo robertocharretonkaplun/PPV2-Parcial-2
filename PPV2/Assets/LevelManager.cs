@@ -7,14 +7,17 @@ public class LevelManager : MonoBehaviour
 {
   [Header("Level Data")]
   public Subject Lesson;
+
   [Header("User Interface")]
   public TMP_Text QuestionTxt;
   public List<Option> Options;
+
   [Header("Game Configuration")]
   public int questionAmount = 0;
   public int currentQuestion = 0;
   public string question;
   public string correctAnswer;
+
   [Header("Current Lesson")]
   public Leccion currentLesson;
   // Start is called before the first frame update
@@ -39,7 +42,13 @@ public class LevelManager : MonoBehaviour
       correctAnswer = currentLesson.options[currentLesson.correctAnswer];
       // Establecemos la pregunta en UI
       QuestionTxt.text = question;
+      // Establecemos las Opciones
+      for (int i = 0; i < currentLesson.options.Count; i++)
+      {
+        Options[i].GetComponent<Option>().OptionName = currentLesson.options[i];
+        Options[i].GetComponent<Option>().UpdateText();
 
+      }
     }
     else
     {

@@ -18,4 +18,10 @@ public class Option : MonoBehaviour
   {
     transform.GetChild(0).GetComponent<TMP_Text>().text = OptionName;
   }
+
+  public void SelectOption()
+  {
+    LevelManager.Instance.SetPlayerAnswer(OptionID);
+    LevelManager.Instance.CheckPlayerState();
+  }
 }

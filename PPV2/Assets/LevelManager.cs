@@ -54,6 +54,7 @@ public class LevelManager : MonoBehaviour
     CheckPlayerState();
   }
 
+
   private void LoadQuestion()
   {
     // Aseguramos que la pregunta actual este dentro de los limites
@@ -81,6 +82,7 @@ public class LevelManager : MonoBehaviour
       Debug.Log("Fin de las preguntas");
     }
   }
+
 
   public void NextQuestion()
   {

@@ -1,0 +1,35 @@
+{
+  "Lesson": 1,
+  "leccionList": [
+    {
+      "ID": 1,
+      "lessons": "¿Qué es Unity?",
+      "options": [ "Un motor de juego", "Un editor de imágenes", "Un navegador web", "Un procesador de texto", "Una hoja de cálculo" ],
+      "correctAnswer": 0
+    },
+    {
+      "ID": 2,
+      "lessons": "¿Qué lenguaje de programación se utiliza comúnmente en Unity?",
+      "options": [ "Java", "C++", "C#", "Python", "Ruby" ],
+      "correctAnswer": 2
+    },
+    {
+      "ID": 3,
+      "lessons": "¿Qué es un GameObject en Unity?",
+      "options": [ "Un objeto 3D", "Una imagen", "Un sonido", "Una clase abstracta", "Una instancia de MonoBehaviour" ],
+      "correctAnswer": 4
+    },
+    {
+      "ID": 4,
+      "lessons": "¿Cuál es el propósito del componente Rigidbody en Unity?",
+      "options": [ "Controlar la iluminación", "Manejar la física del objeto", "Reproducir sonidos", "Gestionar la interfaz de usuario", "Renderizar gráficos" ],
+      "correctAnswer": 1
+    },
+    {
+      "ID": 5,
+      "lessons": "¿Qué es Unity Asset Store?",
+      "options": [ "Una tienda de ropa", "Un supermercado", "Una plataforma de redes sociales", "Una tienda en línea para assets y recursos de Unity", "Un servicio de transmisión de música" ],
+      "correctAnswer": 3
+    }
+  ]
+}
